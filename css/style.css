@@ -1,0 +1,35 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.8em;
+    font-family: 'Play', sans-serif;
+}
+
+/** BARRA DE NAVEGACION */
+
+.barra-navegacion {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+}
+
+nav {
+    position: absolute;
+    top: 5%;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 3%;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration:none;
+    cursor:hand;
+    background-color: aqua;
+}
+
