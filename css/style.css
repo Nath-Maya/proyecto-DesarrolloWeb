@@ -1,0 +1,58 @@
+/* Paleta {
+    color: #058027;
+    color: #00784B;
+    color: #006E62;
+    color: #00626C;
+    color: #005567;
+    color:#2F4858;
+
+    color:#3E4A3D;
+    color:#A1AFA0;
+} */
+
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+/* *ENCABEZADO - BARRA DE NAVEGACION */
+
+
+nav {
+    background-image: linear-gradient(to right top, #058027, #007652, #006869, #00586a, #2f4858);
+    width: 100%;
+    height: 2em;
+}
+
+ul .nav-caja {
+    height: 2em;
+    justify-items: center;
+}
+
+nav .nav-enlace {
+    display: inline-block;
+    text-decoration: none;
+    color:#A1AFA0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2em;
+    padding: 2px;
+}
+
+nav .nav-enlace:hover {
+    cursor: pointer;
+    color: white;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+
