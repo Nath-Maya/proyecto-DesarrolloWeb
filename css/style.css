@@ -19,40 +19,61 @@
 
 body {
     font-family: 'Abel', sans-serif;
+    background-image: url(/img/pexels-archie-binamira-913215\ \(1\).jpg);
 }
 
 /* *ENCABEZADO - BARRA DE NAVEGACION */
 
-
-nav {
-    background-image: linear-gradient(to right top, #058027, #007652, #006869, #00586a, #2f4858);
+header {
+    background-image: linear-gradient(to right, #cdf8d9, #007652, #006869, #00586a, #2f4858);
     width: 100%;
-    height: 2em;
+    margin: auto;
 }
 
-ul .nav-caja {
-    height: 2em;
-    justify-items: center;
+nav .nav-container {
+    width: 100%;
+    margin: 5rem;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+   
 }
 
-nav .nav-enlace {
+nav .nav-logo {
+    position:relative;
+    margin: 0px;
+    width: 15rem;
+}
+
+nav .nav-barra {
     display: inline-block;
+    margin: 10px;
+    justify-content: center;
+
+}
+
+ul .nav-items {
+    position: relative;
+    display: inline;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
     text-decoration: none;
     color:#A1AFA0;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 1.2em;
-    padding: 2px;
 }
 
-nav .nav-enlace:hover {
+nav .nav-items:hover {
     cursor: pointer;
     color: white;
     background: rgba(255, 255, 255, 0.15);
-    border-radius: 5px;
+    border-radius: 2.5px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.15);
 }
+
+
 
 
