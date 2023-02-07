@@ -10,7 +10,6 @@
     color:#A1AFA0;
 } */
 
-
 * {
     margin: 0px;
     padding: 0;
@@ -25,42 +24,48 @@ body {
 /* *ENCABEZADO - BARRA DE NAVEGACION */
 
 header {
-    background-image: linear-gradient(to right, #cdf8d9, #007652, #006869, #00586a, #2f4858);
+    background-image: linear-gradient(to top right, #7eef9e, #007652, #006869, #00586a, #2f4858);
     width: 100%;
     margin: auto;
 }
 
-nav .nav-container {
-    width: 100%;
-    margin: 5rem;
-    /* position: absolute; */
-    display: flex;
-    flex-direction: row;
-   
-}
-
-nav .nav-logo {
+h1 .logo-header {
+	width: 10rem;
+    height: auto;
     position:relative;
-    margin: 0px;
-    width: 15rem;
 }
 
-nav .nav-barra {
-    display: inline-block;
-    margin: 10px;
-    justify-content: center;
+div .container-header {
+    width: 960px;
+	max-width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+}
 
+.cuerpo-header .container-header {
+    display: flex;
+	align-items: center;
+	justify-content:flex-start;
+	flex-wrap: wrap;
+}
+
+nav .cuerpo-nav-lista {
+    margin: 1em 0 .5em;
+	text-align: center;
+}
+
+.cuerpo-nav li {
+	display: inline;
+    align-items: flex-end;
 }
 
 ul .nav-items {
-    position: relative;
-    display: inline;
-    padding: 0.5rem;
-    margin: 0.5rem;
+    display: inline-block;
+    padding: 0.3rem;
+    margin: 0.3rem;
     font-family: 'Bebas Neue', cursive;
-    font-size: 1.5rem;
     text-decoration: none;
-    color:#A1AFA0;
+    color:#9eda9a;
 }
 
 nav .nav-items:hover {
@@ -73,6 +78,17 @@ nav .nav-items:hover {
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.15);
 }
+
+@media (min-width: 960px) {
+	.cuerpo-header .container-header {
+		justify-content: space-between;
+	}
+}
+
+
+
+
+
 
 
 
