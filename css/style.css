@@ -18,7 +18,7 @@
 
 body {
     font-family: 'Abel', sans-serif;
-    background-image: url(/img/pexels-archie-binamira-913215\ \(1\).jpg);
+    /* background-image: url(/img/pexels-archie-binamira-913215\ \(1\).jpg); */
 }
 
 /* *ENCABEZADO - BARRA DE NAVEGACION */
@@ -64,6 +64,7 @@ ul .nav-items {
     padding: 0.3rem;
     margin: 0.3rem;
     font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
     text-decoration: none;
     color:#9eda9a;
 }
@@ -84,6 +85,8 @@ nav .nav-items:hover {
 		justify-content: space-between;
 	}
 }
+
+/* *TITULO PRINCIPAL */
 
 
 
