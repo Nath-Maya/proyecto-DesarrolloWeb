@@ -18,13 +18,10 @@
 
 body {
     font-family: 'Abel', sans-serif;
-    /* fondo de imagen  */
-    background-image: url(/img/pexels-archie-binamira-913215\ \(1\).jpg);
+    background-image: url(/Users/nathm./Desktop/coderhouse-fullstack/modulo1-desarrollo_web/proyecto-paginaweb/img/fondo2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    /* la altura de la imagen no supere el contenido */
     background-attachment: fixed;
-    /* reescalar imagen */
     background-size: cover;
 }
 
