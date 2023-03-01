@@ -1,0 +1,39 @@
+:root {
+   --fuente-body:'Abel', sans-serif;
+   --fuente-title: 'Bebas Neue', cursive;
+
+   --background-degradado-header: linear-gradient(to top right, #7eef9e, #007652, #006869, #00586a, #2f4858);
+   
+}
+
+
+
+.body {
+   font-family: var(--fuente-body);
+}
+
+/*! ENCABEZADO -  HEADER */
+
+.logo-header {
+   width: 9rem;
+   height: auto;
+}
+
+.navbar {
+   font-family: var(--fuente-title);
+   background-image: var(--background-degradado-header);
+}
+
+
+.nav-link:hover {
+   cursor: pointer;
+   color: white;
+   background: rgba(255, 255, 255, 0.15);
+   border-radius: 2.5px;
+   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(15px);
+   -webkit-backdrop-filter: blur(4px);
+   border: 1px solid rgba(255, 255, 255, 0.15);
+   transition: 250ms;
+}
+
