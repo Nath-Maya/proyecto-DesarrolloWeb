@@ -1,12 +1,17 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
 :root {
    --fuente-body:'Abel', sans-serif;
    --fuente-title: 'Bebas Neue', cursive;
 
-   --background-degradado-header: linear-gradient(to top right, #7eef9e, #007652, #006869, #00586a, #2f4858);
-   
+   --background-degradado-header: linear-gradient(to top right, #7eef9e, #007652, #006869, #00586a, #2f4858);   
 }
 
-
+/* !BODY */
 
 .body {
    font-family: var(--fuente-body);

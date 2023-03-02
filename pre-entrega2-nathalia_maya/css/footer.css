@@ -16,6 +16,8 @@ div h1 {
 
 .footer-pagina {
    color: white;
+   display: flex;
+   flex-direction: column;
 }
 
 footer .footer-copyright {
@@ -37,12 +39,74 @@ footer .icon-footer:hover {
    flex-wrap: nowrap;
    justify-content: center;
    text-decoration: none;
+   padding: 0;
 }
 
 footer .items-footer {
    list-style: none;
+   display: flex;
+   justify-content:space-around;
 }
 
 .items-footer li {
-   padding: 1rem;
+   padding: 0.5rem;
+   
+}
+
+.datos-footer {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   align-items:center;
+}
+
+/* ?RESPONSIVE */
+
+@media screen and (min-width: 768px) {
+
+   .footer-pagina {
+      display: flex;
+      flex-direction: row;
+      padding: 1.5rem;
+   }
+
+   .footer-redes {
+      display: flex;
+      align-items: center;
+   }
+
+   footer .items-footer {
+      display: flex;
+      justify-content:flex-start;
+   }  
+
+   footer .icon-footer {
+      width: 3rem;
+   }
+}
+
+@media screen and (min-width: 992px) {
+
+   .footer-pagina {
+      padding: 2rem;
+   }
+
+   .datos-footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+   }
+
+   .datos-footer>h1 {
+      margin: 0;
+   }
+
+   .datos-footer>p {
+      margin: 0;
+   }
+
+   .items-footer {
+      margin: 0;
+   }
 }
