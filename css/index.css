@@ -51,8 +51,9 @@ body {
 
 /* !CARRUSEL */
 
-.slide {
-   margin: 1rem;;
+.carousel {
+   margin: 1rem;
+   width: 80%;
 }
 
 .carousel-caption {
