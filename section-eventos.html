@@ -6,41 +6,59 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Eventos</title>
-        <link rel="stylesheet" href="./css/style.css">
+        <!-- link css boostrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <!-- links fuentes -->
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+        <!-- favicon -->
+        <link rel="icon" type="image/jpg" href="/img/logo1.png" />
+        <!-- Css Index-->
+        <link rel="stylesheet" href="/css/index.css">
+        <!-- Css footer -->
+        <link rel="stylesheet" href="/css/footer.css">
+        <!-- Css eventos -->
+        <link rel="stylesheet" href="/css/eventos.css">
+        <!-- Css Entrenamientos -->
+        <link rel="stylesheet" href="/css/entrenamiento.css">
+        <!-- Css implementos -->
+        <link rel="stylesheet" href="/css/implementos.css">
+        <!-- Css Mas info -->
+        <link rel="stylesheet" href="/css/mas_info.css">
     </head>
     
     <body>
-        <!-- ENCABEZADO - BARRA DE NAVEGACION -->
-    
-        <header class="cuerpo-header">
-            <div class="container-header">
-                <h1>
-                    <img src="./img/logo1.png" alt="Montain & Trail" class="logo-header">
-                </h1>
-                <nav class="cuerpo-nav">
-                    <ul class="cuerpo-nav-lista">
-                        <li>
-                            <a href="./index.html" class="nav-items">Inicio</a>
-                        </li>
-                        <li>
-                            <a href="./section-entrenamiento.html" class="nav-items" target="">Entrenamientos</a>
-                        </li>
-                        <li>
-                            <a href="./section-eventos.html" class="nav-items" target="">Eventos</a>
-                        </li>
-                        <li>
-                            <a href="./section-implementos.html" class="nav-items" target="">Implementos
-                                deportivos</a>
-                        </li>
-                        <li>
-                            <a href="./section-mas.html" class="nav-items" target="">Mas info</a>
-                        </li>
-                    </ul>
-                </nav>
+<!-- !ENCABEZADO - BARRA DE NAVEGACION -->
+<header class="header-container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <img src="./img/logo1.png" alt="Montain & Trail" class="logo-header">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-2 text-center" href="./index.html">Mountain & Trail</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav fs-3">
+                    <li class="nav-item">
+                        <a class="nav-link m-2 text-center" aria-current="page"
+                            href="./section-eventos.html">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-2 text-center" href="./section-entrenamiento.html">Entrenamientos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-2 text-center" href="./section-implementos.html">Implementos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-2 text-center" href="./section-mas.html">Mas info</a>
+                    </li>
+                </ul>
             </div>
-        </header>
+        </div>
+    </nav>
+</header>
     <main>
 <!-- TITULO PRINCIPAL -->
 
