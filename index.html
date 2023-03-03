@@ -1,103 +1,128 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mountain & Trail</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Mountain & Trail</title>
+   <!-- link css boostrap -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <!-- links fuentes -->
+   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+   <!-- favicon -->
+   <link rel="icon" type="image/jpg" href="/img/logo1.png" />
+   <!-- Css Index-->
+   <link rel="stylesheet" href="/css/index.css">
+   <!-- Css footer -->
+   <link rel="stylesheet" href="/css/footer.css">
+   <!-- Css eventos -->
+   <link rel="stylesheet" href="/css/eventos.css">
+   <!-- Css Entrenamientos -->
+   <link rel="stylesheet" href="/css/entrenamiento.css">
+   <!-- Css implementos -->
+   <link rel="stylesheet" href="/css/implementos.css">
+   <!-- Css Mas info -->
+   <link rel="stylesheet" href="/css/mas_info.css">
 </head>
 
 <body>
-    <!-- ENCABEZADO - BARRA DE NAVEGACION -->
 
-    <header class="cuerpo-header">
-        <div class="container-header">
-            <h1>
-                <img src="./img/logo1.png" alt="Montain & Trail" class="logo-header">
-            </h1>
-            <nav class="cuerpo-nav">
-                <ul class="cuerpo-nav-lista">
-                    <li>
-                        <a href="./index.html" class="nav-items">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="./section-entrenamiento.html" class="nav-items" target="">Entrenamientos</a>
-                    </li>
-                    <li>
-                        <a href="./section-eventos.html" class="nav-items" target="">Eventos</a>
-                    </li>
-                    <li>
-                        <a href="./section-implementos.html" class="nav-items" target="">Implementos
-                            deportivos</a>
-                    </li>
-                    <li>
-                        <a href="./section-mas.html" class="nav-items" target="">Mas info</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <!-- TITULO PRINCIPAL -->
-
-        <h1 class="titulo-principal">¿Qué es el trail running?</h1>
-        <!-- BLOQUE  PRINCIPAL -->
-
-        <section class="bloque-principal">
-            <div>
-                <img class="imagen-principal" src="./img/pexels-emrah-yazıcıoğlu-12918252.jpg" alt="trail-running">
-            </div>
-            <div>
-                <h2 class="subtitulo-principal">¿Sabías que no solo hay carreras sobre asfalto? </h2>
-                <p class="parrafo-principal">
-                    Eso es solo una parte de la familia del running. La otra se encuentra en la montaña. El trail
-                    running es
-                    básicamente correr sobre senderos, ríos, pendientes rocosas, terrenos inestables; simplemente correr
-                    en todo lo
-                    que
-                    contempla la naturaleza. Requiere una técnica increíble y se considera un deporte con una carga de
-                    adrenalina
-                    exorbitante.
-                </p>
-            </div>
-
-        </section>
-
-    </main>
-    <!-- PIE DE PAGINA / FOOTER -->
-
-    <footer class="footer-pagina">
-        <div class="footer-redes">
-            <ul class="items-footer">
-                <li>
-                    <a href="https://github.com/Nath-Maya" class="enlace-footer1" target="_blank">
-                        <img src="./img/icono-github.png" alt="Mi github" class="icon-footer">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/nathy.mayaramirez/" class="enlace-footer2" target="_blank">
-                        <img src="./img/icono-facebook.png" alt="Mi facebook" class="icon-footer">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/nathalia-maya-ramirez-814245119/" class="enlace-footer3"
-                        target="_blank">
-                        <img src="./img/icono-linkedin.png" alt="Mi Linkedin" class="icon-footer">
-                    </a>
-                </li>
+   <!-- !ENCABEZADO - BARRA DE NAVEGACION -->
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <img src="./img/logo1.png" alt="Montain & Trail" class="logo-header">
+      <div class="container-fluid">
+         <a class="navbar-brand fs-2 text-center" href="./index.html">Mountain & Trail</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul class="navbar-nav fs-3">
+               <li class="nav-item">
+                  <a class="nav-link m-2 text-center" aria-current="page" href="./section-eventos.html">Eventos</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link m-2 text-center" href="./section-entrenamiento.html">Entrenamientos</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link m-2 text-center" href="./section-implementos.html">Implementos</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link m-2 text-center" href="./section-mas.html">Mas info</a>
+               </li>
             </ul>
-        </div>
-        <div>
-            <h1>Nathalia Maya </h1>
-            
-            <p>Developer in progress </p>
-            <p class="footer-copyright">&copy Copyright Mountain & Trail - 2023</p>
-        </div>
-    </footer>
+         </div>
+      </div>
+   </nav>
+   <main>
+      <!-- TITULO PRINCIPAL -->
+      <h1 class="titulo-principal">¿Qué es el trail running?</h1>
+      <!-- BLOQUE  PRINCIPAL -->
+      <section class="bloque-principal">
+         <div>
+            <img class="imagen-principal" src="./img/pexels-emrah-yazıcıoğlu-12918252.jpg" alt="trail-running">
+         </div>
+         <div>
+            <h2 class="subtitulo-principal">¿Sabías que no solo hay carreras sobre asfalto? </h2>
+            <p class="parrafo-principal">
+               Eso es solo una parte de la familia del running. La otra se encuentra en la montaña. El trail
+               running es
+               básicamente correr sobre senderos, ríos, pendientes rocosas, terrenos inestables; simplemente correr
+               en todo lo
+               que
+               contempla la naturaleza. Requiere una técnica increíble y se considera un deporte con una carga de
+               adrenalina
+               exorbitante.
+            </p>
+         </div>
+      </section>
+   </main>
+<!--! PIE DE PAGINA - FOOTER  -->
+   <footer class="footer-pagina">
+      <div class="footer-redes">
+         <ul class="items-footer">
+            <li class="items_lista-footer">
+               <a href="https://github.com/Nath-Maya" class="enlace-footer1" target="_blank">
+                  <img src="./img/icono-github.png" alt="Mi github" class="icon-footer">
+               </a>
+            </li>
+            <li class="items_lista-footer">
+               <a href="https://www.facebook.com/nathy.mayaramirez/" class="enlace-footer2" target="_blank">
+                  <img src="./img/icono-facebook.png" alt="Mi facebook" class="icon-footer">
+               </a>
+            </li>
+            <li class="items_lista-footer">
+               <a href="https://www.linkedin.com/in/nathalia-maya-ramirez-814245119/" class="enlace-footer3"
+                  target="_blank">
+                  <img src="./img/icono-linkedin.png" alt="Mi Linkedin" class="icon-footer">
+               </a>
+            </li>
+         </ul>
+      </div>
+      <div class="datos-footer">
+         <h1>Nathalia Maya </h1>
+
+         <p>Developer in progress </p>
+         <p class="footer-copyright">&copy Copyright Mountain & Trail - 2023</p>
+      </div>
+   </footer>
+
+
+
+
+
+   <!-- JS Boostrap -->
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>

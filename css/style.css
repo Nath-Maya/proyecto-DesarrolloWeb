@@ -18,14 +18,14 @@
 
 body {
     font-family: 'Abel', sans-serif;
-    background-image: url(/Users/nathm./Desktop/coderhouse-fullstack/modulo1-desarrollo_web/proyecto-paginaweb/img/fondo2.jpg);
+    background-image: url(/img/fondo2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-/* *ENCABEZADO - BARRA DE NAVEGACION */
+/*! *ENCABEZADO - BARRA DE NAVEGACION */
 
 /* fondo degradado para el encabezado */
 header {
