@@ -2,12 +2,8 @@
 footer {
    text-align: center;
    padding: 10px;
-   background-image: linear-gradient(to bottom, rgba(119, 212, 145, 0.438), rgba(0, 118, 83, 0.5), #00586a, #123348);
-   border-radius: 0.2rem;
-   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-   backdrop-filter: blur(8px);
-   -webkit-backdrop-filter: blur(15px);
-   border: 0.5px solid rgba(255, 255, 255, 0.27);
+   background: rgb(127, 191, 109);
+   background: linear-gradient(180deg, rgba(127, 191, 109, 1) 0%, rgba(49, 97, 66, 1) 42%, rgba(4, 8, 5, 0.8548012955182073) 97%);
 }
 
 div h1 {
