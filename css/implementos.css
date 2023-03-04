@@ -1,0 +1,28 @@
+:root {
+   --sombra-img: 3px 3px 10px 5px gray;
+}
+
+.implement-descripcion {
+   margin: 1rem;
+}
+
+.implement-img {
+   width: 100%;
+   box-shadow: var(--sombra-img);
+
+   border-radius: 0px 20px 0px 20px;
+   border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.implement-text {
+   background: rgba(255, 255, 255, 0.2);
+   border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(5px);
+   border: 1px solid rgba(255, 255, 255, 0.3);
+
+   text-align:center;
+   padding: 1rem;
+   vertical-align: center;
+}
