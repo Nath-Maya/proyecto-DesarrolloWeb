@@ -23,6 +23,15 @@ body {
 
 .title-principal {
    font-size: 2.5rem;
+   color: rgba(240, 248, 255, 0.854);
+   text-shadow: 4px 5px 4px rgba(7, 40, 23, 0.849);
+   margin: 1rem 0.5rem;
+   font-family: var(--fuente-title);
+   text-align: center;
+}
+
+.subtitle{
+   font-size: 2rem;
    color: aliceblue;
    text-shadow: 4px 5px 4px rgba(7, 40, 23, 0.849);
    margin: 1rem 0.5rem;

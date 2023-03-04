@@ -2,6 +2,8 @@
    --sombra-img: 3px 3px 10px 5px gray;
 }
 
+/* !IMPLEMENTOS DEPORTIVOS */
+
 .implement-descripcion {
    margin: 1rem;
 }
@@ -36,3 +38,4 @@
 .implement-text p{
    font-size: 1.2rem;
 }
+
