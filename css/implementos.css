@@ -39,3 +39,14 @@
    font-size: 1.2rem;
 }
 
+/* !REFERENCIAS CARDS */
+
+.card-body {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.card-img-top {
+   height: 286px;
+}
