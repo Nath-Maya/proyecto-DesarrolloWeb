@@ -58,29 +58,6 @@ footer .items-footer {
 
 /* ?RESPONSIVE */
 
-@media screen and (min-width: 768px) {
-
-   .footer-pagina {
-      display: flex;
-      flex-direction: row;
-      padding: 1.5rem;
-   }
-
-   .footer-redes {
-      display: flex;
-      align-items: center;
-   }
-
-   footer .items-footer {
-      display: flex;
-      justify-content:flex-start;
-   }  
-
-   footer .icon-footer {
-      width: 3rem;
-   }
-}
-
 @media screen and (min-width: 992px) {
 
    .footer-pagina {
@@ -104,5 +81,29 @@ footer .items-footer {
 
    .items-footer {
       margin: 0;
+   }
+}
+
+@media screen and (min-width: 768px) {
+
+   .footer-pagina {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 1.5rem;
+   }
+
+   .footer-redes {
+      display: flex;
+      align-items: center;
+   }
+
+   footer .items-footer {
+      display: flex;
+      justify-content:flex-start;
+   }  
+
+   footer .icon-footer {
+      width: 3rem;
    }
 }
