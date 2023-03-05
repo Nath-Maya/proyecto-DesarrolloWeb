@@ -68,6 +68,36 @@ body {
    transition: 250ms;
 }
 
+/* !DESCRIPCION PAGINA */
+
+.descripcion-container {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 0 2rem;
+}
+
+.title-principal {
+   margin: 1rem 0rem 0.3rem 0;
+}
+
+
+.descripcion-eslogan {
+   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+   font-style: italic;
+   width: 100%;
+   color: #9eda9a;
+}
+
+.texto-descripcion {
+   width: 65%;
+   padding: 0 3rem;
+   color: white;
+}
+
+
 /* !CARRUSEL */
 
 .carousel {
