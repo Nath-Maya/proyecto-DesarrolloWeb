@@ -126,7 +126,37 @@ border: 1px solid rgba(67, 198, 141, 0.3);
    color:black;
 }
 
+/* ?RESPONSIVE */
 
+@media screen and (max-width: 768px) {
+   .descripcion-container {
+      padding: 0.5rem;
+   }
+
+   .texto-descripcion {
+      padding: 0;
+      width: 90%;
+   }
+
+   .carousel {
+      width: 80%;
+   }
+}
+
+@media screen and (max-width: 375px) {
+   .descripcion-container {
+      padding: 0.5rem;
+   }
+
+   .texto-descripcion {
+      padding: 0;
+      width: 90%;
+   }
+
+   .carousel {
+      width: 95%;
+   }
+}
 
 
 
