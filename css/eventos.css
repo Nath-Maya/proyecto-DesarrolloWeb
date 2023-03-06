@@ -1,3 +1,36 @@
+
+.gif-container {
+   height: 150px;
+}
+
+
+.gif {
+   width: 10%;
+
+   animation-name: running;
+   animation-duration: 2s;
+   animation-timing-function:ease-in;
+   animation-iteration-count: infinite;
+}
+
+@keyframes running {
+   0% {
+      margin-left: 0%;
+   }
+
+   50% {
+      width: 12%;
+   }
+
+   100% {
+      margin-left: 100%;
+   }
+}
+
+
+
+/* !TABLA DE ENVENTOS */
+
 .tabla-eventos {
    border-spacing: 1rem;
    border-collapse: collapse;
@@ -32,3 +65,4 @@ caption {
 table .cuerpo-tabla {
    background-color: rgba(235, 246, 235, 0.7);
 }
+
