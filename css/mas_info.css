@@ -1,4 +1,4 @@
-form {
+.formulario-container {
    padding: 1.2rem;
    margin: 1.2rem;
    background: rgba(117, 247, 132, 0.511);
@@ -53,4 +53,31 @@ form label, form legend {
 fieldset .opciones-informacion {
    padding: 0.5rem;
    margin: 0.3rem;
+}
+
+
+/* ?RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 375px) {
+   .input-padron {
+      width: 95%;
+   }
+
+   .formulario-container {
+      margin: 1rem;
+   }
+
+   form label, form legend {
+      display: block;
+      margin: 0.3rem;
+      padding: 0.3rem;
+   }
+
+   .enviar {
+      width: 90%;
+   }
 }
