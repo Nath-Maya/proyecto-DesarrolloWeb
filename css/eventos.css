@@ -94,7 +94,7 @@ th,td {
 }
 
 caption {
-   color: #123348;
+   color: #f5fafd;
    font-style: italic;
    text-align: left;
    font-size: 0.8rem;
@@ -104,6 +104,39 @@ caption {
 table .cuerpo-tabla {
    background-color: rgba(235, 246, 235, 0.7);
 }
+
+
+/* !ACCORDION */
+
+.accordion {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: 1rem;
+}
+
+
+.icon-accordion {
+   width: 2.5rem;
+   height: 1.5rem;
+   margin: 0.3rem;
+}
+
+.accordion-item {
+   margin: 1rem;
+   width: 30%;
+   height: auto;
+}
+
+.img-accordion {
+   width: 100%;
+}
+
+
+
+
+
+
 
 /* ?RESPONSIVE */
 
