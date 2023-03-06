@@ -1,6 +1,5 @@
 
 .gif-container {
-   height: 110px;
    background: rgb(255, 255, 255);
    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 183, 0, 0.31) 100%);
 }
@@ -17,10 +16,6 @@
 @keyframes running {
    0% {
       margin-left: 10%;
-   }
-
-   50% {
-      width: 12%;
    }
 
    100% {
@@ -69,6 +64,10 @@
 
 
 /* !TABLA DE ENVENTOS */
+
+.table-container {
+   width: 100%;
+}
 
 .tabla-eventos {
    border-spacing: 1rem;
@@ -179,5 +178,9 @@ table .cuerpo-tabla {
 @media screen and (max-width: 375px) {
    .other-item {
      display: none;
+   }
+
+   .table-container {
+      display: none;
    }
 }
