@@ -54,7 +54,7 @@ a {
   font-family: "Bebas Neue", cursive;
   background-image: linear-gradient(to top right, #7eef9e, #007652, #006869, #00586a, #2f4858); }
   .navbar .logo-header {
-    width: 9rem;
+    width: 10rem;
     height: auto; }
 
 .nav-link {
@@ -74,3 +74,10 @@ a {
 .navbar-brand {
   color: #9eda9a;
   text-shadow: 4px 5px 4px rgba(7, 40, 23, 0.849); }
+
+body {
+  background-image: url(/img/fondo2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }

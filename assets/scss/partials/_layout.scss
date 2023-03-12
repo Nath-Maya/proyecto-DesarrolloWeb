@@ -4,7 +4,7 @@
   background-image: $background-body;
 
   .logo-header {
-    width: 9rem;
+    width: 10rem;
     height: auto;
   }
 }
@@ -29,4 +29,8 @@
 .navbar-brand {
   color: #9eda9a;
   text-shadow: 4px 5px 4px rgba(7, 40, 23, 0.849);
+}
+
+body {
+  @include background-body (url(/img/fondo2.jpg))
 }
