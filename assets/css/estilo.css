@@ -1,3 +1,4 @@
+/*estilos reset*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,3 +45,32 @@ table {
 a {
   color: inherit;
   text-decoration: none; }
+
+/*estilos para variables y mixins*/
+/* Variables fuentes */
+/* Mixins */
+/*estilos header y footer*/
+.navbar {
+  font-family: "Bebas Neue", cursive;
+  background-image: linear-gradient(to top right, #7eef9e, #007652, #006869, #00586a, #2f4858); }
+  .navbar .logo-header {
+    width: 9rem;
+    height: auto; }
+
+.nav-link {
+  color: #9eda9a;
+  text-shadow: 4px 5px 4px rgba(7, 40, 23, 0.849); }
+  .nav-link:hover {
+    cursor: pointer;
+    color: white;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 2.5px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    transition: 250ms; }
+
+.navbar-brand {
+  color: #9eda9a;
+  text-shadow: 4px 5px 4px rgba(7, 40, 23, 0.849); }

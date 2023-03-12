@@ -11,8 +11,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass --watch assets/scss -o assets/css"
   },
-
   "author": "",
-  "license": "ISC"
-  
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nath-Maya/proyecto-sitio-web-coderhouse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nath-Maya/proyecto-sitio-web-coderhouse/issues"
+  },
+  "homepage": "https://github.com/Nath-Maya/proyecto-sitio-web-coderhouse#readme"
 }
