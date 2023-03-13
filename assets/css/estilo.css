@@ -80,4 +80,34 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  font-family: "Abel", sans-serif; }
+
+.footer-pagina {
+  color: white;
+  background: linear-gradient(180deg, #7fbf6d 0%, #316142 42%, rgba(21, 51, 28, 0.855) 97%);
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .footer-pagina .items-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 0;
+    list-style: none; }
+    .footer-pagina .items-footer .items_lista-footer {
+      padding: 0.5rem; }
+      .footer-pagina .items-footer .items_lista-footer .icon-footer {
+        width: 2.3rem; }
+        .footer-pagina .items-footer .items_lista-footer .icon-footer:hover {
+          filter: drop-shadow(3px 3px 3px rgba(247, 244, 244, 0.7)); }
+
+.datos-footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%; }

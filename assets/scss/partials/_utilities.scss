@@ -5,6 +5,7 @@ $font-body:'Abel', sans-serif;
 
 $background-body: linear-gradient(to top right, #7eef9e, #007652, #006869, #00586a, #2f4858);
 
+$background-footer: linear-gradient(180deg, rgba(127, 191, 109, 1) 0%, rgba(49, 97, 66, 1) 42%, rgba(21, 51, 28, 0.855) 97%);
 
 /* Mixins */
 
@@ -31,6 +32,13 @@ $background-body: linear-gradient(to top right, #7eef9e, #007652, #006869, #0058
   text-align: center;
 }
 
-
+@mixin subtitle {
+  font-size: 2rem;
+  color: aliceblue;
+  text-shadow: 4px 5px 4px rgba(7, 40, 23, 0.849);
+  margin: 1rem 0.5rem;
+  font-family: var(--fuente-title);
+  text-align: center;
+}
 
 

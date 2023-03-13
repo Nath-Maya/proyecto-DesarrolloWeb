@@ -33,4 +33,46 @@
 
 body {
   @include background-body (url(/img/fondo2.jpg))
+  font-family: $font-body;
+}
+
+//FOOTER - PIE DE PAGINA
+
+.footer-pagina {
+  color: white;
+  background: $background-footer;
+
+  text-align: center;
+
+  padding: 10px;
+
+  @include container-flex (flex,center,column);
+  
+  .items-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 0;
+    list-style: none;
+
+    .items_lista-footer {
+      padding: 0.5rem;
+
+        .icon-footer {
+          width: 2.3rem;
+
+          &:hover {
+            filter: drop-shadow(3px 3px 3px rgba(247, 244, 244, 0.7));
+          }
+        }
+    }
+ }
+}
+
+.datos-footer {
+
+  @include container-flex(flex,center,column);
+   width: 100%;
 }
