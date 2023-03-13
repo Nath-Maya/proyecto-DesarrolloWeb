@@ -153,6 +153,19 @@ html {
     padding: 0 3rem;
     color: white; }
 
+.carousel-container {
+  position: relative; }
+  .carousel-container .carousel {
+    margin: 1rem;
+    width: 80%; }
+    .carousel-container .carousel .carousel-caption {
+      padding: 0.8rem; }
+      .carousel-container .carousel .carousel-caption .carousel-caption-title {
+        color: black; }
+      .carousel-container .carousel .carousel-caption p {
+        color: white;
+        font-size: 1.1rem; }
+
 @media screen and (min-width: 992px) {
   .footer-pagina {
     padding: 2rem; }

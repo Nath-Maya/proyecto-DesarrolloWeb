@@ -30,3 +30,24 @@
 
 //!CARRUSEL
 
+.carousel-container {
+  position: relative;
+
+  .carousel {
+    margin: 1rem;
+    width: 80%;
+  
+    .carousel-caption {
+      padding: 0.8rem;
+  
+      .carousel-caption-title {
+        color: black;
+      }
+  
+      p {
+        color: white;
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
