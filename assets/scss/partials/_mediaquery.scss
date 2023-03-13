@@ -1,0 +1,46 @@
+
+
+
+//FOOTER - PIE DE PAGINA
+
+@media screen and (min-width: 992px) {
+
+  .footer-pagina {
+    padding: 2rem;
+
+    .items-footer {
+      margin: 0;
+   }
+ }
+
+ .datos-footer > p{
+  margin: 0;
+ }
+
+ .datos-footer > h1{
+  margin: 0;
+ }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .footer-pagina {
+      @include container-flex(flex, space-around, row);
+      padding: 1.5rem;
+  
+      .footer-redes {
+        display: flex;
+        align-items: center;
+  
+        .items-footer {
+          display: flex;
+          justify-content: flex-start;
+  
+          .icon-footer {
+            width: 3rem;
+          }
+        }
+      }
+    }
+}
