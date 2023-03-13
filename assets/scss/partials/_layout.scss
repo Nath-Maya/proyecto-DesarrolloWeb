@@ -36,15 +36,26 @@ body {
   font-family: $font-body;
 }
 
+html {
+  min-height: 100%;
+  position: relative;
+}
+
 //FOOTER - PIE DE PAGINA
 
 .footer-pagina {
+  width: 100%;
+
   color: white;
   background: $background-footer;
 
   text-align: center;
 
   padding: 10px;
+  margin-top: 1rem;
+
+  position: absolute;
+  bottom: 0;
 
   @include container-flex (flex,center,column);
   

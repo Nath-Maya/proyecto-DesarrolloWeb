@@ -83,11 +83,19 @@ body {
   background-size: cover;
   font-family: "Abel", sans-serif; }
 
+html {
+  min-height: 100%;
+  position: relative; }
+
 .footer-pagina {
+  width: 100%;
   color: white;
   background: linear-gradient(180deg, #7fbf6d 0%, #316142 42%, rgba(21, 51, 28, 0.855) 97%);
   text-align: center;
   padding: 10px;
+  margin-top: 1rem;
+  position: absolute;
+  bottom: 0;
   display: flex;
   justify-content: center;
   flex-direction: column; }
