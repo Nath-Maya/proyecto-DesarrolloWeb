@@ -2,6 +2,9 @@
 
 $font-title: 'Bebas Neue', cursive;
 $font-body:'Abel', sans-serif;
+$color-text: #9eda9a;
+
+/*Fondos */
 
 $background-body: linear-gradient(to top right, #7eef9e, #007652, #006869, #00586a, #2f4858);
 
@@ -28,7 +31,7 @@ $background-footer: linear-gradient(180deg, rgba(127, 191, 109, 1) 0%, rgba(49, 
   color: rgba(240, 248, 255, 0.854);
   text-shadow: 4px 5px 4px rgba(7, 40, 23, 0.849);
   margin: 1rem 0.5rem;
-  font-family: var(--fuente-title);
+  font-family: $font-title;
   text-align: center;
 }
 
@@ -37,7 +40,7 @@ $background-footer: linear-gradient(180deg, rgba(127, 191, 109, 1) 0%, rgba(49, 
   color: aliceblue;
   text-shadow: 4px 5px 4px rgba(7, 40, 23, 0.849);
   margin: 1rem 0.5rem;
-  font-family: var(--fuente-title);
+  font-family: $font-title;
   text-align: center;
 }
 
