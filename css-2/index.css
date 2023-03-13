@@ -100,7 +100,7 @@ body {
 
 /* !CARRUSEL */
 
-.carousel {
+/* .carousel {
    margin: 1rem;
    width: 80%;
 }
@@ -125,11 +125,11 @@ body {
 
 .carousel-caption-title {
    color: black;
-}
+} */
 
 /* ?RESPONSIVE */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
    .descripcion-container {
       padding: 0.5rem;
    }
@@ -142,9 +142,9 @@ body {
    .carousel {
       width: 80%;
    }
-}
+} */
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
    .descripcion-container {
       padding: 0.5rem;
    }
@@ -157,7 +157,7 @@ body {
    .carousel {
       width: 95%;
    }
-}
+} */
 
 
 
