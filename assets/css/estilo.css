@@ -111,3 +111,10 @@ body {
   justify-content: center;
   flex-direction: column;
   width: 100%; }
+  .datos-footer h1 {
+    font-size: 2rem;
+    font-family: "Bebas Neue", cursive; }
+  .datos-footer .footer-copyright {
+    color: rgba(255, 255, 255, 0.525);
+    margin: 0.25rem;
+    font-size: 0.6rem; }
