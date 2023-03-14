@@ -1,0 +1,64 @@
+.title-principal {
+  @include title-principal;
+}
+
+.formulario-container {
+  padding: 1.2rem;
+  margin: 1.2rem;
+  background: rgba(117, 247, 132, 0.511);
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px rgba(14, 49, 8, 0.806);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 0.5px solid rgba(255, 255, 255, 0.15);
+  margin: 3rem;
+
+  .input-padron {
+    display:block;
+    margin: 0.5rem;
+    padding: 0.6rem;
+    width: 70%;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px 0.5px rgba(0, 0, 0, 0.6);
+  }
+
+  label,
+  legend {
+    display: block;
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 5px;
+  }
+
+ 
+
+  .opciones-informacion {
+    padding: 0.5rem;
+    margin: 0.3rem;
+  }
+
+  .checkbox {
+    margin: 20px 5px;
+  }
+
+  .enviar {
+    width: 30%;
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background: #007652;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor:pointer;
+    align-items: center;
+
+      &:hover {
+        background: #00586a;
+        transform: scale(1.1);
+        box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.6);
+      }
+  }
+}
+
