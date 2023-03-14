@@ -58,14 +58,36 @@
 
 @media screen and (max-width: 375px) {
   .descripcion-container {
-     padding: 0.5rem;
-
-     .texto-descripcion {
-      padding: 0;
-      width: 90%;
-   }
-  }
-  .carousel {
-     width: 95%;
-  }
+      padding: 0.5rem;
+  
+      .texto-descripcion {
+        padding: 0;
+        width: 90%;
+      }
+    }
+  
+    .carousel {
+      width: 95%;
+    }
+  
+    .formulario-container {
+      margin: 1rem;
+  
+      label,
+      legend {
+        display: block;
+        margin: 0.3rem;
+        padding: 0.3rem;
+        font-size: 1.1rem;
+      }
+  
+      .input-padron {
+        width: 95%;
+      }
+    }
+  
+    .enviar {
+      width: 80%;
+      padding: 0.3rem;
+    }
 }

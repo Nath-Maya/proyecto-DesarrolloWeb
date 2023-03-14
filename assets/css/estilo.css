@@ -202,17 +202,16 @@ body {
   .formulario-container .checkbox {
     margin: 20px 5px; }
   .formulario-container .enviar {
-    width: 30%;
-    padding: 1rem;
-    font-size: 18px;
+    width: 50%;
+    padding: 0.5rem;
+    font-size: 1.1rem;
     font-weight: bold;
     color: white;
     border: none;
     background: #007652;
     border-radius: 10px;
     transition: 1s all;
-    cursor: pointer;
-    align-items: center; }
+    cursor: pointer; }
     .formulario-container .enviar:hover {
       background: #00586a;
       transform: scale(1.1);
@@ -257,4 +256,17 @@ body {
       padding: 0;
       width: 90%; }
   .carousel {
-    width: 95%; } }
+    width: 95%; }
+  .formulario-container {
+    margin: 1rem; }
+    .formulario-container label,
+    .formulario-container legend {
+      display: block;
+      margin: 0.3rem;
+      padding: 0.3rem;
+      font-size: 1.1rem; }
+    .formulario-container .input-padron {
+      width: 95%; }
+  .enviar {
+    width: 80%;
+    padding: 0.3rem; } }
