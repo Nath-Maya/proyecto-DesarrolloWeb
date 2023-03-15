@@ -93,7 +93,29 @@
   }
 }
 
+.accordion {
+  @include container-flex(flex,center,row);
+  margin: 1rem;
 
+  .accordion-item {
+    margin: 1rem;
+    width: 30%;
+    height: auto;
+ }
+}
+
+.accordion-button {
+  .icon-accordion {
+   width: 2.5rem;
+   height: 1.5rem;
+   margin: 0.3rem;
+  }
+}
+
+.accordion-body {
+  @include container-flex(flex,center,column);
+  
+}
 
 
 
