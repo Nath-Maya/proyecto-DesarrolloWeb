@@ -346,6 +346,16 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column; }
+  .accordion-body .img-accordion {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px gray; }
+  .accordion-body .text-accordion {
+    padding: 1rem;
+    margin: 0; }
+  .accordion-body .enlace-accordion {
+    padding: 0.5rem;
+    text-align: center; }
 
 @media screen and (min-width: 992px) {
   .footer-pagina {
