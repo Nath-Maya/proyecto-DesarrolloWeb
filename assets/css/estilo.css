@@ -217,6 +217,31 @@ body {
       transform: scale(1.1);
       box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.6); }
 
+.implement-container .implement-descripcion {
+  margin: 1rem; }
+  .implement-container .implement-descripcion .implement-text {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    padding: 1rem;
+    vertical-align: center; }
+    .implement-container .implement-descripcion .implement-text p {
+      font-size: 1.2rem; }
+
+.implement-container .implement-img {
+  width: 100%;
+  box-shadow: var(--sombra-img);
+  border-radius: 0px 20px 0px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5); }
+  .implement-container .implement-img:hover {
+    transition: 350ms;
+    box-shadow: -1px -1px 12px 2px rgba(255, 255, 255, 0.51);
+    scale: 1.01; }
+
 @media screen and (min-width: 992px) {
   .footer-pagina {
     padding: 2rem; }

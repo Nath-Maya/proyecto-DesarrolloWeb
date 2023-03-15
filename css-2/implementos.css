@@ -1,14 +1,14 @@
-:root {
+/* :root {
    --sombra-img: 3px 3px 10px 5px gray;
-}
+} */
 
 /* !IMPLEMENTOS DEPORTIVOS */
 
-.implement-descripcion {
+/* .implement-descripcion {
    margin: 1rem;
-}
+} */
 
-.implement-img {
+/* .implement-img {
    width: 100%;
    box-shadow: var(--sombra-img);
 
@@ -20,9 +20,9 @@
    transition: 350ms;
    box-shadow: -1px -1px 12px 2px rgba(255, 255, 255,0.51);
    scale: 1.01;
-   }
+   } */
 
-.implement-text {
+/* .implement-text {
    background: rgba(255, 255, 255, 0.2);
    border-radius: 16px;
    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -33,11 +33,11 @@
    text-align:center;
    padding: 1rem;
    vertical-align: center;
-}
+} */
 
-.implement-text p{
+/* .implement-text p{
    font-size: 1.2rem;
-}
+} */
 
 /* !REFERENCIAS CARDS */
 
