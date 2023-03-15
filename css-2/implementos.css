@@ -41,31 +41,30 @@
 
 /* !REFERENCIAS CARDS */
 
-.card-body {
+/* .card-body {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-}
-
-.card-img-top {
+} */
+/* .card-img-top {
    height: 286px;
 }
 
 .col {
    padding: 0.5rem;
-}
+} */
 
-.card-title {
+/* .card-title {
    font-weight: bold;
    margin-left: 0.5rem;
-}
+} */
 
-.card-text {
+/* .card-text {
    padding: 0.5rem;
-}
+} */
 
-.btn {
+/* .btn {
    width: auto;
-}
+} */
 

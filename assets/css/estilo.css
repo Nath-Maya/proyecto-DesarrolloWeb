@@ -242,6 +242,25 @@ body {
     box-shadow: -1px -1px 12px 2px rgba(255, 255, 255, 0.51);
     scale: 1.01; }
 
+.col {
+  padding: 0.5rem; }
+
+.card .card-img-top {
+  height: 286px; }
+
+.card .card-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  .card .card-body .card-title {
+    font-weight: bold;
+    margin-left: 0.5rem; }
+    .card .card-body .card-title .card-text {
+      padding: 0.5rem; }
+      .card .card-body .card-title .card-text .btn {
+        width: auto; }
+
 @media screen and (min-width: 992px) {
   .footer-pagina {
     padding: 2rem; }
