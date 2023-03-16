@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Mountain & Trail</title>
+   <!-- link css boostrap -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <!-- links fuentes -->
+   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+   <!-- favicon -->
+   <link rel="icon" type="image/jpg" href="./img/ultimo-icono.png" />
+   <!-- Estilos scss -->
+   <link rel="stylesheet" href="/assets/css/estilo.css">
+</head>
+<body>
+
+   <!-- !ENCABEZADO - BARRA DE NAVEGACION -->
+<header class="header-container">
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <img src="./img/logo1.png" alt="Montain & Trail" class="logo-header">
+      <div class="container-fluid">
+         <a class="navbar-brand fs-2 text-center" href="./index.html">Mountain & Trail</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul class="navbar-nav fs-3">
+               <li class="nav-item">
+                  <a class="nav-link m-2 text-center" aria-current="page" href="./section-eventos.html">Eventos</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link m-2 text-center" href="./section-entrenamiento.html">Entrenamientos</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link m-2 text-center" href="./section-implementos.html">Implementos</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link m-2 text-center" href="./section-mas.html">Mas info</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+</header>
+   <main>
+<!-- !DESCRIPCION PAGINA -->
+<div class="descripcion-container">
+   <h1 class="title-principal">¿Qué es Mountain & Trail?</h1>
+   <h5 class="descripcion-eslogan">La naturaleza a tus pies</h5>
+   <p class="texto-descripcion">Es una página dedicada a brindarte un abrebocas al mundo de este deporte, que está formado por la naturaleza, el cuerpo y el corazón. Es un canal donde podrás unirte a eventos, tiendas donde podrás encontrar lo que requieras, y demás información. 
+      Espero te guste! 
+      </p>
+</div>
+
+      <!-- ! CARRUSEL -->
+      <section class="carousel-container d-flex justify-content-center">
+         <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner carousel-fade">
+               <div class="carousel-item active">
+                  <img src="./img/pexels-emrah-yazıcıoğlu-12918252.jpg" class="carousel-img d-block w-100"
+                     alt="Trail runing">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h1 class="carousel-caption-title fw-bold">¿Sabías que no solo se corre sobre asfalto?</h1>
+                     <p>Eso es solo una parte de la familia del running. La otra se encuentra en la montaña. El trail
+                        running es
+                        básicamente correr sobre senderos, ríos, pendientes rocosas, terrenos inestables; simplemente debes
+                        correr. Requiere una técnica increíble y se considera un deporte con una carga de
+                        adrenalina
+                        exorbitante.</p>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="./img/aventura.jpg" class="carousel-img d-block w-100" alt="Aventura">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h1 class="carousel-caption-title fw-bold">Se explora rincones inéditos ...</h1>
+                     <p>El trail running no requiere solo una habilidad física, también requiere un nivel de percepción
+                        agudo
+                        para utilizar todos los sentidos en presenciar y sentir todo lo que la naturaleza nos brinda. </p>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="./img/runing.jpg" class="carousel-img d-block w-100" alt="Explorando boques">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h1 class="carousel-caption-title fw-bold">¿Y los límites?</h1>
+                     <p>Los que tu te pongas mentalmente, el cuerpo es una máquina que tiene una potencia que no
+                        dimensionamos. </p>
+                  </div>
+               </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+               data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+               data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Siguiente</span>
+            </button>
+         </div>
+      </section>
+   </main>
+<!--! PIE DE PAGINA - FOOTER  -->
+   <footer class="footer-pagina">
+      <div class="footer-redes">
+         <ul class="items-footer">
+            <li class="items_lista-footer">
+               <a href="https://github.com/Nath-Maya" class="enlace-footer1" target="_blank">
+                  <img src="./img/icono-github.png" alt="Mi github" class="icon-footer">
+               </a>
+            </li>
+            <li class="items_lista-footer">
+               <a href="https://www.facebook.com/nathy.mayaramirez/" class="enlace-footer2" target="_blank">
+                  <img src="./img/icono-facebook.png" alt="Mi facebook" class="icon-footer">
+               </a>
+            </li>
+            <li class="items_lista-footer">
+               <a href="https://www.linkedin.com/in/nathalia-maya-ramirez-814245119/" class="enlace-footer3"
+                  target="_blank">
+                  <img src="./img/icono-linkedin.png" alt="Mi Linkedin" class="icon-footer">
+               </a>
+            </li>
+         </ul>
+      </div>
+      <div class="datos-footer">
+         <h1>Nathalia Maya </h1>
+
+         <p>Developer in progress </p>
+         <p class="footer-copyright">&copy Copyright Mountain & Trail - 2023</p>
+      </div>
+   </footer>
+
+   <!-- JS Boostrap -->
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
