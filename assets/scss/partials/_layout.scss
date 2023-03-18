@@ -1,4 +1,4 @@
-// HEADER - ENCABEZADO
+//* HEADER - ENCABEZADO
 .navbar {
   font-family: $font-title;
   background-image: $background-body;
@@ -37,12 +37,8 @@ body {
   font-size: 1.1rem;
 }
 
-// html {
-//   min-height: 100%;
-//   position: relative;
-// }
 
-//FOOTER - PIE DE PAGINA
+//*FOOTER - PIE DE PAGINA
 
 .footer-pagina {
   width: 100%;
@@ -55,11 +51,10 @@ body {
   padding: 10px;
   margin-top: 1rem;
 
-  // position: absolute;
   bottom: 0;
 
-  @include container-flex (flex,center,column);
-  
+  @include container-flex (flex, center, column);
+
   .items-footer {
     display: flex;
     flex-direction: row;
@@ -72,29 +67,32 @@ body {
     .items_lista-footer {
       padding: 0.5rem;
 
-        .icon-footer {
-          width: 2.3rem;
+      .icon-footer {
+        width: 2.3rem;
 
-          &:hover {
-            filter: drop-shadow(3px 3px 3px rgba(247, 244, 244, 0.7));
-          }
+        &:hover {
+          filter: drop-shadow(3px 3px 3px rgba(247, 244, 244, 0.7));
         }
+      }
     }
- }
+  }
 }
 
 .datos-footer {
-  @include container-flex(flex,center,column);
-   width: 100%;
+  @include container-flex(flex, space-around, row);
+  width: 100%;
+  align-self: center;
 
-   h1 {
+
+  h1 {
     font-size: 2rem;
     font-family: $font-title;
-   }
+  }
 
-   .footer-copyright {
+  .footer-copyright {
     color: rgba(255, 255, 255, 0.525);
     margin: 0.25rem;
     font-size: 0.6rem;
-   }
+  }
 }
+

@@ -110,9 +110,10 @@ body {
 
 .datos-footer {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%; }
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  align-self: center; }
   .datos-footer h1 {
     font-size: 2rem;
     font-family: "Bebas Neue", cursive; }
@@ -234,7 +235,7 @@ body {
 
 .implement-container .implement-img {
   width: 100%;
-  box-shadow: var(--sombra-img);
+  box-shadow: 3px 3px 10px 5px gray;
   border-radius: 0px 20px 0px 20px;
   border: 1px solid rgba(255, 255, 255, 0.5); }
   .implement-container .implement-img:hover {
