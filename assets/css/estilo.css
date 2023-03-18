@@ -92,7 +92,7 @@ body {
   bottom: 0;
   display: flex;
   justify-content: center;
-  flex-direction: column; }
+  flex-direction: row; }
   .footer-pagina .items-footer {
     display: flex;
     flex-direction: row;
@@ -104,7 +104,7 @@ body {
     .footer-pagina .items-footer .items_lista-footer {
       padding: 0.5rem; }
       .footer-pagina .items-footer .items_lista-footer .icon-footer {
-        width: 2.3rem; }
+        width: 3rem; }
         .footer-pagina .items-footer .items_lista-footer .icon-footer:hover {
           filter: drop-shadow(3px 3px 3px rgba(247, 244, 244, 0.7)); }
 
@@ -370,18 +370,18 @@ body {
 
 @media screen and (min-width: 768px) {
   .footer-pagina {
+    padding: 1.5rem;
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    padding: 1.5rem; }
+    justify-content: center;
+    flex-direction: column; }
     .footer-pagina .footer-redes {
+      width: 60%;
+      align-self: center; }
+    .footer-pagina .datos-footer {
       display: flex;
-      align-items: center; }
-      .footer-pagina .footer-redes .items-footer {
-        display: flex;
-        justify-content: flex-start; }
-        .footer-pagina .footer-redes .items-footer .icon-footer {
-          width: 3rem; }
+      justify-content: center;
+      flex-direction: column;
+      padding-top: 0.5rem; }
   .descripcion-container {
     padding: 0.5rem; }
     .descripcion-container .texto-descripcion {
@@ -425,4 +425,13 @@ body {
   .other-item {
     display: none; }
   .table-container {
-    display: none; } }
+    display: none; }
+  .footer-pagina {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.3rem; }
+    .footer-pagina .datos-footer {
+      display: flex;
+      justify-content: center;
+      flex-direction: column; } }
