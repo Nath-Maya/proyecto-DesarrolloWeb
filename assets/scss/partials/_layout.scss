@@ -4,14 +4,16 @@
   background-image: $background-body;
 
   .logo-header {
-    width: 10rem;
+    width: 9rem;
     height: auto;
+    padding: 0.5rem;
   }
 }
 
 .nav-link {
   color: #9eda9a;
   text-shadow: 4px 5px 4px rgba(7, 40, 23, 0.849);
+  font-size: 2rem;
 
   &:hover {
     cursor: pointer;
@@ -26,10 +28,6 @@
   }
 }
 
-.navbar-brand {
-  color: #9eda9a;
-  text-shadow: 4px 5px 4px rgba(7, 40, 23, 0.849);
-}
 
 body {
   @include background-body (url(/img/fondo2.jpg));

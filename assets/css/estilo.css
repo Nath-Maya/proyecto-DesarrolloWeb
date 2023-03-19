@@ -52,12 +52,14 @@ a {
   font-family: "Bebas Neue", cursive;
   background-image: linear-gradient(to top right, #7eef9e, #007652, #006869, #00586a, #2f4858); }
   .navbar .logo-header {
-    width: 10rem;
-    height: auto; }
+    width: 9rem;
+    height: auto;
+    padding: 0.5rem; }
 
 .nav-link {
   color: #9eda9a;
-  text-shadow: 4px 5px 4px rgba(7, 40, 23, 0.849); }
+  text-shadow: 4px 5px 4px rgba(7, 40, 23, 0.849);
+  font-size: 2rem; }
   .nav-link:hover {
     cursor: pointer;
     color: white;
@@ -68,10 +70,6 @@ a {
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.15);
     transition: 250ms; }
-
-.navbar-brand {
-  color: #9eda9a;
-  text-shadow: 4px 5px 4px rgba(7, 40, 23, 0.849); }
 
 body {
   background-image: url(/img/fondo2.jpg);
@@ -141,11 +139,21 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     font-style: italic;
     width: 100%;
-    color: #9eda9a; }
+    color: #033903;
+    padding-bottom: 0.3rem; }
   .descripcion-container .texto-descripcion {
     width: 65%;
-    padding: 0 3rem;
-    color: white; }
+    margin: 0.5rem 2rem;
+    padding: 0.5rem;
+    color: #010856;
+    background: rgba(154, 211, 255, 0.39);
+    border-radius: 3px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(154, 211, 255, 0.23); }
+    .descripcion-container .texto-descripcion p {
+      padding: 0.5rem; }
 
 .carousel-container {
   position: relative; }
