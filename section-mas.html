@@ -1,65 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Más información</title>
-        <!-- link css boostrap -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <!-- links fuentes -->
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-        <!-- favicon -->
-        <link rel="icon" type="image/jpg" href="/img/logo1.png" />
-        <!-- Css Index
-        <link rel="stylesheet" href="./css/index.css">
-        <!-- Css footer -->
-        <!-- <link rel="stylesheet" href="./css/footer.css"> -->
-        <!-- Css eventos -->
-        <!-- <link rel="stylesheet" href="./css/eventos.css"> -->
-        <!-- Css Entrenamientos -->
-        <!-- <link rel="stylesheet" href="./css/entrenamiento.css"> -->
-        <!-- Css implementos -->
-        <!-- <link rel="stylesheet" href="./css/implementos.css"> -->
-        <!-- Css Mas info -->
-        <!-- <link rel="stylesheet" href="./css/mas_info.css"> -->
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Más información</title>
+    <!-- link css boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- links fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" type="image/jpg" href="/img/logo1.png" />
+    <!-- estilos scss -->
     <link rel="stylesheet" href="/assets/css/estilo.css">
-    </head>
-    
-    <body>
-<!-- !ENCABEZADO - BARRA DE NAVEGACION -->
-<header class="header-container">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <img src="./img/logo1.png" alt="Montain & Trail" class="logo-header">
-        <div class="container-fluid">
-            <a class="navbar-brand fs-2 text-center" href="./index.html">Mountain & Trail</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                <ul class="navbar-nav fs-3">
-                    <li class="nav-item">
-                        <a class="nav-link m-2 text-center" aria-current="page"
-                            href="./section-eventos.html">Eventos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link m-2 text-center" href="./section-entrenamiento.html">Entrenamientos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link m-2 text-center" href="./section-implementos.html">Implementos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link m-2 text-center" href="./section-mas.html">Mas info</a>
-                    </li>
-                </ul>
+</head>
+
+<body>
+    <!-- !ENCABEZADO - BARRA DE NAVEGACION -->
+    <header class="header-container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <img src="./img/ultimo-icono.png" alt="Montain & Trail" class="logo-header">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav fs-3">
+                        <li class="nav-item">
+                            <a class="nav-link m-2 text-center" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-2 text-center" aria-current="page"
+                                href="./section-eventos.html">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-2 text-center" href="./section-entrenamiento.html">Entrenamientos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-2 text-center" href="./section-implementos.html">Implementos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-2 text-center" href="./section-mas.html">Mas info</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
     <main>
         <!--! BLOQUE PRINCIPAL -->
         <h1 class="title-principal">¡Adéntrate en este mundo!</h1>
@@ -75,19 +66,20 @@
             <textarea id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
             <!-- Boton enviar -->
             <label for="Enviar"></label>
-        
+
             <!-- Seleccionadores -->
             <fieldset class="lista-seleccionador">
                 <legend>¿Cómo le gustaría que lo contactemos?</legend>
-                <label for="radio-email"><input type="radio" name="contacto" value="Email" id="radio-email">Email</label>
-        
+                <label for="radio-email"><input type="radio" name="contacto" value="Email"
+                        id="radio-email">Email</label>
+
                 <label for="radio-telefono"><input type="radio" name="contacto" value="telefono"
                         id="radio-telefono">Teléfono</label>
-        
-                <label for="radio-whathsapp"><input type="radio" name="contacto" value="radio-whatsapp" id="radio-whatsapp"
-                        checked>Instagram</label>
+
+                <label for="radio-whathsapp"><input type="radio" name="contacto" value="radio-whatsapp"
+                        id="radio-whatsapp" checked>Instagram</label>
             </fieldset>
-        
+
             <!-- Lista de opciones -->
             <fieldset>
                 <legend>¿Sobre qué quieres recibir más información?</legend>
@@ -97,51 +89,53 @@
                     <option>Implementos deportivos</option>
                 </select>
             </fieldset>
-            <label for="checkbox"><input type="checkbox" class="checkbox" checked>Le gustaría recibir novedades de la página?</label>
+            <label for="checkbox"><input type="checkbox" class="checkbox" checked>Le gustaría recibir novedades de la
+                página?</label>
             <input type="submit" value="Enviar formulario" class="enviar" />
         </form>
     </main>
 
-<!--! PIE DE PAGINA - FOOTER  -->
-<footer class="footer-pagina">
-    <div class="footer-redes">
-        <ul class="items-footer">
-            <li class="items_lista-footer">
-                <a href="https://github.com/Nath-Maya" class="enlace-footer1" target="_blank">
-                    <img src="./img/icono-github.png" alt="Mi github" class="icon-footer">
-                </a>
-            </li>
-            <li class="items_lista-footer">
-                <a href="https://www.facebook.com/nathy.mayaramirez/" class="enlace-footer2" target="_blank">
-                    <img src="./img/icono-facebook.png" alt="Mi facebook" class="icon-footer">
-                </a>
-            </li>
-            <li class="items_lista-footer">
-                <a href="https://www.linkedin.com/in/nathalia-maya-ramirez-814245119/" class="enlace-footer3"
-                    target="_blank">
-                    <img src="./img/icono-linkedin.png" alt="Mi Linkedin" class="icon-footer">
-                </a>
-            </li>
-        </ul>
-    </div>
-    <div class="datos-footer">
-        <h1>Nathalia Maya </h1>
+    <!--! PIE DE PAGINA - FOOTER  -->
+    <footer class="footer-pagina">
+        <div class="footer-redes">
+            <ul class="items-footer">
+                <li class="items_lista-footer">
+                    <a href="https://github.com/Nath-Maya" class="enlace-footer1" target="_blank">
+                        <img src="./img/icono-github.png" alt="Mi github" class="icon-footer">
+                    </a>
+                </li>
+                <li class="items_lista-footer">
+                    <a href="https://www.facebook.com/nathy.mayaramirez/" class="enlace-footer2" target="_blank">
+                        <img src="./img/icono-facebook.png" alt="Mi facebook" class="icon-footer">
+                    </a>
+                </li>
+                <li class="items_lista-footer">
+                    <a href="https://www.linkedin.com/in/nathalia-maya-ramirez-814245119/" class="enlace-footer3"
+                        target="_blank">
+                        <img src="./img/icono-linkedin.png" alt="Mi Linkedin" class="icon-footer">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="datos-footer">
+            <h1>Nathalia Maya </h1>
 
-        <p>Developer in progress </p>
-        <p class="footer-copyright">&copy Copyright Mountain & Trail - 2023</p>
-    </div>
-</footer>
+            <p>Developer in progress </p>
+            <p class="footer-copyright">&copy Copyright Mountain & Trail - 2023</p>
+        </div>
+    </footer>
 
-<!-- Js boostrap -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+    <!-- Js boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 </body>
+
 </html>
