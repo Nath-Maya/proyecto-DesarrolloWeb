@@ -338,12 +338,12 @@ body {
 
 .accordion {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: row;
   margin: 1rem; }
   .accordion .accordion-item {
-    margin: 1rem;
-    width: 30%;
+    margin: 0.5rem;
+    width: 33%;
     height: auto; }
 
 .accordion-button .icon-accordion {
@@ -404,10 +404,11 @@ body {
       width: 45%; }
   .accordion {
     display: flex;
-    flex-direction: column;
-    align-items: center; }
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem; }
     .accordion .accordion-item {
-      width: 90%; } }
+      width: 100%; } }
 
 @media screen and (max-width: 375px) {
   .descripcion-container {
@@ -442,4 +443,13 @@ body {
     .footer-pagina .datos-footer {
       display: flex;
       justify-content: center;
-      flex-direction: column; } }
+      flex-direction: column; }
+  .accordion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%; }
+    .accordion .accordion-item {
+      margin: 1rem;
+      width: 100%;
+      height: auto; } }

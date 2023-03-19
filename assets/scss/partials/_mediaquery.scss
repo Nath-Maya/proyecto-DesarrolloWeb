@@ -62,11 +62,12 @@
 
   .accordion {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    margin: 0.5rem;
 
     .accordion-item {
-      width: 90%;
+      width: 100%;
     }
   }
 }
@@ -123,5 +124,17 @@
       @include container-flex(flex, center, column);
     }
   }
+
+  .accordion {
+    @include container-flex(flex,center,column);
+    width: 80%;
+
+    .accordion-item {
+      margin: 1rem;
+      width: 100%;
+      height: auto;
+    }
+  }
+
 }
 
