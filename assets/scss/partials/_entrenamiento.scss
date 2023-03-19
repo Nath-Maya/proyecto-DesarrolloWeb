@@ -1,0 +1,37 @@
+.card-video-container {
+  @include container-flex(flex, space-around, column);
+  align-items: center;
+
+  .card {
+    @include container-flex(flex,space-around,row);
+    padding: 0.4rem;
+    margin: 0.5rem;
+    width: 90%;
+
+    .card-video-iframe {
+      box-shadow: $sombra-img;
+      margin-bottom: 0.3rem;
+      width: 30%;
+    }
+
+    .card-body {
+      padding: 0.5rem;
+      width: 60%;
+
+
+      h1 {
+        font-style: bold;
+        font-size: 2rem;
+        padding-bottom: 0.6rem;
+        color: #00586a;
+
+      }
+
+      .card-text {
+        text-align: justify;
+        font-size: 1.1rem;
+        width: 90%;
+      }
+    }
+  }
+}

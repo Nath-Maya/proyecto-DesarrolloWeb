@@ -30,7 +30,7 @@
       width: 60%;
       align-self: center;
     }
-  
+
     .datos-footer {
       @include container-flex(flex, center, column);
       padding-top: 0.5rem;
@@ -71,6 +71,36 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .card-video-container {
+    @include container-flex(flex, space-around, row);
+    align-items: center;
+
+    .card {
+      @include container-flex(flex, center, column);
+
+      .card-video-iframe {
+        width: 100%;
+      }
+
+      .card-body {
+        width: 100%;
+
+        h1 {
+          font-size: 1.5rem;
+          text-align: center;
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
 
 @media screen and (max-width: 375px) {
   .descripcion-container {
@@ -126,7 +156,7 @@
   }
 
   .accordion {
-    @include container-flex(flex,center,column);
+    @include container-flex(flex, center, column);
     width: 80%;
 
     .accordion-item {
@@ -136,5 +166,31 @@
     }
   }
 
-}
+  .card-video-container {
+    @include container-flex(flex, center, column);
+    align-items: center;
 
+    .card {
+      @include container-flex(flex, center, column);
+
+      .card-video-iframe {
+        width: 100%;
+      }
+
+      .card-body {
+        width: 100%;
+
+        h1 {
+          font-size: 1.5rem;
+          text-align: center;
+
+        }
+
+      }
+
+    }
+
+  }
+
+
+}
