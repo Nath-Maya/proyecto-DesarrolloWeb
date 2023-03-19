@@ -30,7 +30,7 @@
 
 
 body {
-  @include background-body (url(./img/fondo2.jpg));
+  @include background-body (url(/img/fondo2.jpg));
   font-family: $font-body;
   font-size: 1.1rem;
 }
