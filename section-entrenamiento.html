@@ -14,18 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <!-- favicon -->
     <link rel="icon" type="image/jpg" href="/img/logo1.png" />
-    <!-- Css Index-->
-    <!-- <link rel="stylesheet" href="./css/index.css"> -->
-    <!-- Css footer -->
-    <!-- <link rel="stylesheet" href="./css/footer.css"> -->
-    <!-- Css eventos -->
-    <!-- <link rel="stylesheet" href="./css/eventos.css"> -->
-    <!-- Css Entrenamientos -->
-    <!-- <link rel="stylesheet" href="./css/entrenamiento.css"> -->
-    <!-- Css implementos -->
-    <!-- <link rel="stylesheet" href="./css/implementos.css"> -->
-    <!-- Css Mas info -->
-    <!-- <link rel="stylesheet" href="./css/mas_info.css"> -->
+
     <link rel="stylesheet" href="/assets/css/estilo.css">
 </head>
 
@@ -33,15 +22,17 @@
     <!-- !ENCABEZADO - BARRA DE NAVEGACION -->
     <header class="header-container">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <img src="./img/logo1.png" alt="Montain & Trail" class="logo-header">
+            <img src="./img/ultimo-icono.png" alt="Montain & Trail" class="logo-header">
             <div class="container-fluid">
-                <a class="navbar-brand fs-2 text-center" href="./index.html">Mountain & Trail</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
                     <ul class="navbar-nav fs-3">
+                        <li class="nav-item">
+                            <a class="nav-link m-2 text-center" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link m-2 text-center" aria-current="page"
                                 href="./section-eventos.html">Eventos</a>
@@ -61,23 +52,68 @@
         </nav>
     </header>
     <main>
-        <!--! TITULO PRINCIPAL -->
-
-        <h1 class="title-principal">¿Cómo prepararte para correr en la montaña? </h1>
-        <!--! VIDEOS -->
-        <section class="video-container">
-            <div class="video-entrenamientos">
-                <iframe class="video-enlace" width="560" height="315" src="https://www.youtube.com/embed/_-ACPPCj5E8"
-                    title="Entregamiento de Fuerza" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
+        <!-- ! DESCRIPCION PAGINA-->
+        <div class="descripcion-container">
+            <h1 class="title-principal">¿Cómo prepararte para correr en la montaña? </h1>
+            <div class="texto-descripcion">
+                <p>
+                    El trail
+                    running
+                    es un deporte que requiere preparación física y mental. En esta sección hablaremos principalmente,
+                    de la física. El
+                    cuerpo, y especialmente las piernas, requieren un acondicionamiento y fortalecimiento adecuado para
+                    evitar la infinidad
+                    de lesiones que podemos tener durante un entrenamiento o carrera con los diversos terrenos y sus
+                    dificultades.
+                </p>
             </div>
-            <div class="video-entrenamientos">
-                <iframe class="video-enlace" width="560" height="315" src="https://www.youtube.com/embed/qE-vwN7Mjek"
+        </div>
+        <!-- !CARD VIDEOS -->
+        <section class="card-video-container">
+
+            <!-- !VIDEO 1 -->
+            <div class="card" style="width: 33%;">
+                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/qE-vwN7Mjek"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
+                <div class="card-body">
+                    <H1>Técnica de Ascenso</H1>
+                    <p class="card-text">
+                        Cuando afrontamos una pendiente nuestras pulsaciones suben, notamos las piernas más pesadas y
+                        fatigadas y la respiración empieza a acelerarse… En este momento optimizar la técnica es
+                        fundamental.
+                    </p>
+                </div>
+            </div>
+
+            <!-- !VIDEO 2 -->
+            <div class="card" style="width: 33%;">
+                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/SsRsDZbfkhw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <div class="card-body">
+                    <H1>Técnica de Descenso</H1>
+                    <p class="card-text">
+                        Durante el descenso es donde más debemos tener técnica, por la velocidad que se puede lograr
+                        durante la bajada de una pendiente y la irregularidad del terreno. 
+                    </p>
+                </div>
+            </div>
+            <!-- !VIDEO 3 -->
+            <div class="card" style="width: 33%;">
+                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/Y_DymGhU-oo"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <div class="card-body">
+                    <H1>Entrenamiento de Fuerza</H1>
+                    <p class="card-text">
+                        Los 12 músculos que componen nuestras piernas, requieren de un fortalecimiento adecuado para
+                        resistir el desgaste durante una carrera. 
+                    </p>
+                </div>
             </div>
         </section>
     </main>
