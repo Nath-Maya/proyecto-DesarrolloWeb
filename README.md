@@ -1,4 +1,4 @@
-# Pagina Web 🖥
+# Pagina Web  🖥
 
 Este proyecto es resultado de los conocimientos adquiridos durante el proceso de aprendizaje con Coderhouse, en el curso de Desarrollo Web.
 Esta compuesto por un sitio web con 5 paginas con una estructura basica de un header, cuerpo de pagina y footer. 
@@ -18,8 +18,9 @@ Esta compuesto por un sitio web con 5 paginas con una estructura basica de un he
 <h3> 🛠 &nbsp;Tecnologías Utilizadas:</h3>
 
 <code><img height="40" width='40' src="./img/img readme/HTML5_logo.png" alt="HTML5"/></code>
-<code><img height="40" width='40' src="./assets/css3.svg" alt="CSS"/></code>
-<code><img height="40" width='40' src="./assets/react.svg" alt="React"/></code>
+<code><img height="40" width='40' src="./img/img readme/css.png" alt="CSS"/></code>
+<code><img height="40" width='40' src="./img/img readme/sass.png" alt="SASS"/></code>
+<code><img height="40" width='40' src="./img/img readme/Bootstrap_logo.svg.png" alt="Bootstrap"/></code>
 
  <br/>
 
