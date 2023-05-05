@@ -15,6 +15,8 @@ Esta compuesto por un sitio web con 5 paginas con una estructura basica de un he
 
 ✅ Visualización responsive del sitio web en las diferentes pantallas (celular, table y computador).
 
+<code><img  width='100%' src="./img/img readme/responsive .jpg" /></code>
+
 <h3> 🛠 &nbsp;Tecnologías Utilizadas:</h3>
 
 <code><img height="40" width='40' src="./img/img readme/HTML5_logo.png" alt="HTML5"/></code>
